@@ -2,7 +2,7 @@ Name: hunspell-ast
 Summary: Asturian hunspell dictionaries
 Epoch: 1
 Version: 0.02
-Release: 5%{?dist}
+Release: 6%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/e-files/3932/1/asturianu.oxt
 URL: http://softastur.org/
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.02-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.02-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
